@@ -94,7 +94,7 @@ export default function Home() {
           <a href="/">Poiesis Pete</a>
         </div>
         <div className={styles.navlinks}>
-          <a href="https://platform.openai.com/docs/models/gpt-4" target="_blank">Website</a>
+          <a href="https://www.poiesis.education" target="_blank">Website</a>
           <a href="https://inaugural.poiesis.education/intake-form" target="_blank">Sign-Up</a>
         </div>
       </div>

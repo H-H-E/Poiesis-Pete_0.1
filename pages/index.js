@@ -10,7 +10,7 @@ export default function Home() {
   const [userInput, setUserInput] = useState("");
   const [loading, setLoading] = useState(false);
   const [messages, setMessages] = useState([
-    { role: "assistant", content: "Welcome to Poiesis Education! I'm Poiesis Pete, a chatbot made to help you learn more about our educational services. Are you a student, parent or teacher?" }
+    { role: "assistant", content: "Welcome to Poiesis Education! I'm Poiesis Pete, a chatbot made to help you learn more about our educational services. Are you a student,teacher, or just interested in learning how we can help?" }
   ]);
 
   const messageListRef = useRef(null);
